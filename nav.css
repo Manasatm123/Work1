@@ -1,0 +1,32 @@
+.nav-bar{
+    background-color: #0f1111;
+    padding-bottom: 60px;
+    border: 5PX solid yellow;
+}
+
+.AMAZON{
+    color: orange;
+    font-size: 25PX;
+}
+
+.account{
+    color: white;
+    padding: 200px;
+
+}
+
+.my-cart{
+    color: white;
+    padding: 200px;
+}
+
+.contact-us{
+    color: white;
+    padding: 200px;
+    margin-right: 200px;
+}
+
+.search{
+    background-color: orange;
+    padding-left: 50x;
+}
