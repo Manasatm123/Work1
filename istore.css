@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+}    
+
+nav{
+    background-color:white;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    opacity: 0.5;
+    
+}
+
+nav span{
+    margin: 20 px;
+}
+
+nav img{
+    height: 20px;
+    width: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+span{
+    padding: 20px;
+}
+
+.container{
+    background-image: url("./image/ipadpro.jpg");
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    z-index: -1;
+}
+
+.vision{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.002em;
+
+}
+
+.vision-text{
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    color: white;
+    padding-top: 10px; 
+   font-size: 25px;
+}
+ 
+.vision-btn {
+    height: 500px;
+    width: 250px;
+    color: white;
+    margin: auto;
+    padding-top: 10px;
+   }
+
+.vbtn{
+    color: black;
+    background-color: white;
+    height: 43px;
+    width: 130px;
+    border-radius: 30px;
+    font-size: 17px;
+    margin: 13px;
+    border: none;
+    
+}
+
+.vbtn2{
+    height: 43px;
+    width: 72px;
+    border-radius: 30px;
+    border: none;
+    
+}
+
+.vbtn2:hover{
+    background-color: blue;
+    color: white;
+}
+
+.container2{
+    padding-top:10px ;
+    background-color: #f5f5f7;
+    margin: auto;
+  
+}
+
+.tex{
+    margin: auto;
+    
+}
+ .text{
+    color: #0071e3;
+    background-color: white;
+    height: 43px;
+    width: 130px;
+    border-radius: 30px;
+    font-size: 17px;
+    margin: 40px;
+    margin-left: 685px;
+    border: none;
+    border: 1px solid #0071e3;
+}
+
+.text:hover{
+    background-color: #0071e3;
+    color: white;
+}
+.container3{
+    margin-top: 10px;
+    width: 100%;
+    height: 638px;
+    background-color: #f5f5f7;
+}
+.container3-1{
+    height: 70%;
+    width: 70%;
+    margin: auto;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+
+ .mac1{ 
+    color: white;
+   
+    height: 43px;
+    width: 130px;
+    border-radius: 30px;
+    font-size: 17px;
+    margin: 13px;
+    border: none;
+    margin-right: 50px;
+    background-color: blue;
+    
+}
+
+.mac2{
+    height: 43px;
+    width: 72px;
+    border-radius: 30px;
+   
+    border:1px solid #0071e3;
+    }
+
+    .mac{
+       
+        width: 300px;
+        height: 100px;
+        margin: auto;
+    }
+    .mac2:hover{
+        background-color: blue;
+        color: white;
+    }
+
+    .macair{
+        text-align: center;
+        font-size: 48px;
+        font-weight: 600;
+        padding-top: 10px;
+    }
+
+    .macair2{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 300;
+    }
+
+    .pic{
+        text-align: center;
+    }
+
+    .container-01{
+        display: flex;
+        justify-content: space-around;
+        height: 700px;
+        width: 90vw;
+        /* background-color: white; */
+        margin: auto;
+        color: white;
+
+    }
+
+
+.iphone{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.iphone-text{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.iphone-text2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.ipbtn{
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    
+}
+
+
+.ipbtn1{
+    color: white;
+    height: 43px;
+    width: 130px;
+    border-radius: 30px;
+    font-size: 17px;
+    margin: 13px;
+    border: none;
+    margin-right: 50px;
+    background-color: blue;
+}
+
+.ipbtn2{
+    height: 43px;
+    width: 102px;
+    border-radius: 30px;
+     border:1px solid #0071e3;
+}
+
+.ipbtn2:hover{
+    background-color: #0071e3;
+    color: white;
+}
+
+.privacy{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.pvc-text{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.pvc-button{
+    width: 300px;
+    height: 100px;
+    margin: auto;
+}
+
+.pvc-button1{
+    color: white;
+    height: 43px;
+    width: 130px;
+    border-radius: 30px;
+    font-size: 17px;
+    margin: 13px;
+    border: none;
+    margin-left: 85px;
+    background-color: blue;
+}
+
+.pvc-button2{
+    color: white;
+    height: 43px;
+    width: 130px;
+    border-radius: 30px;
+    font-size: 17px;
+    margin: 13px;
+    border: none;
+    margin-left: 85px;
+    background-color: blue;
+}
+
+.pvc-button11{
+    color: white;
+    height: 43px;
+    width: 130px;
+    border-radius: 30px;
+    font-size: 17px;
+    margin: 13px;
+    border: none;
+    margin-left: 85px;
+    background-color: blue;
+}
+
+.pvc-button22{
+    color: white;
+    height: 43px;
+    width: 60px;
+    border-radius: 30px;
+    font-size: 17px;
+    margin: 13px;
+    border: none;
+    background-color: blue;
+}
+
+.pvc-button33{
+    color: white;
+    height: 35px;
+    width: 145px;
+    border-radius: 30px;
+    font-size: 17px;
+    margin: 13px;
+    border: none;
+    background-color: blue;
+}
+
+.para{
+    width: 948px;
+    height: 752px;
+    margin: auto;
+    /* background-color: #0071e3; */
+    font-size: 12px;
+    color: #0000008f;
+    font-display: 20px;
+    letter-spacing: inherit;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
