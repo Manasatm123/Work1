@@ -60,14 +60,15 @@ select{
     align-items: center; 
     font-size: 12px;
     padding: 5px;
-    margin-left: 755px;
+    margin-left: 900px;
+    
 }
 
 .right-sub-section { 
     display: flex;
     justify-content: center;
     align-items: center; 
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 .right-sub-section .img {
