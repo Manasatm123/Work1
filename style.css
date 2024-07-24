@@ -1,0 +1,34 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    padding-left: 50px;
+ 
+}
+
+.cimg{
+    width: 322px;
+    height: 305px;
+    border-radius: 10px;
+}
+
+.container2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr  1fr;
+    gap: 2rem;
+    padding-left: 95px;
+
+}
+
+.cont2{
+    width: 322px;
+    height: 305px;
+    border-radius: 10px;
+
+}
