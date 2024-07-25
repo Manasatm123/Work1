@@ -85,7 +85,7 @@ select {
 }
 
 
-/* .nav2{
+/* .nav2{ </div>
     background-color: gray;
     color: black; 
     display: flex; 
@@ -128,7 +128,7 @@ select {
 .search input {
     border: none;
     border-bottom: 1px solid black;
-    
+
 }
 
 .search svg {
@@ -159,7 +159,7 @@ select {
     justify-content: space-around;
 }
 
-.apple {
+.app {
     width: 600px;
     height: 35px;
     display: flex;
@@ -171,10 +171,10 @@ select {
     padding-top: 110px;
 }
 
-.section02 {
+.section1 {
     display: flex;
     width: 85vw;
-    height: 450px;
+    height: 544px;
     margin: auto;
 }
 
@@ -185,26 +185,29 @@ select {
     padding-top: 85px;
 }
 
-.sec02 {
-    width: 454px;
-    height: 454px;
+.sec01 img {
+    width: 648px;
+    height: 544px;
 }
 
-.sec01 {
-    width: 400px;
-    height: 280px;
+.sec02 {
+    width: 580px;
+    height: 400px;
     background-color: #FEFBEA;
+    padding-left: 180px;
+    padding-top: 50px;
 
 }
 
 .sec03 {
-    width: 317px;
-    height: 382px;
+    width: 453px;
+    height: 545px;
 }
 
 .box0 {
     font-size: 20px;
     text-align: center;
+    padding-right: 130px;
 }
 
 .box01 {
@@ -219,14 +222,34 @@ select {
     margin-left: 7px;
 }
 
-
-
 .box1 {
     display: flex;
     font-size: 20px;
+    gap: 20px;
 }
 
 .box2 {
     display: flex;
     font-size: 20px;
+    gap: 20px;
+}
+
+.section2{
+    background-image: url(./firstpageimg/as-yellow.jpeg);
+    width: 100vw;
+    height: 440px;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    /* margin: auto; */
+    /* background-color: #ffdf00; */
+}
+
+.sec22{
+    background-color: #ffdf00;
+    width: 540px;
+    height: 334px;
+    border-radius: 10px;
+    display: flex;
+    margin: auto;
+    padding-top: 20px;
 }
