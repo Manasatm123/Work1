@@ -374,27 +374,14 @@ select {
 }
 
 .section-button button {
-    /* width: 1605px;
-    height: 80px;
-    color: #0e3051;
-    border: none;
-    /* height: 40px;
-    width: 100px; */
-    /* border-radius: 10px;
-    background-color: gold;
-    font-weight: 700px;
-    font-size: 12px;
-    font-family: inter;
-    margin-left: 50px;
-    margin-top: 25px;
-     */
+    
 
     margin-left: 200px;
     color: white;
     border: none;
     height: 80px;
     width: 420px;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #0e3051;
     margin-left: 700px;
 }
@@ -403,7 +390,7 @@ select {
 .icons-3 {
     display: flex;
     width: 90vw;
-    height: 390px;
+    /* height: 390px; */
     justify-content: space-between;
     margin: auto;
 }
@@ -415,4 +402,24 @@ select {
 
 .icons-3 span {
     font-size: 20px;
+}
+
+.list1{
+    display: flex;
+    margin-left: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.lis2{
+    padding-left: 150px;
+}
+
+.list1 li{
+    font-size: 20px;
+}
+
+.paragraph{
+    width: 80vw;
+    margin: auto;
 }
