@@ -1,0 +1,39 @@
+.new-arivals{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 85vw;
+    margin: auto;
+    gap: 20px;
+    font-size: 16px;
+}
+
+/* .pimg01 img{
+    width: 295px;
+    height: 442px;
+}
+.ptext{
+    padding-bottom: 20px
+}
+.pimg001{
+    font-size: 12px; 
+    color: #888888;
+}
+.pr01{
+    color: #999999;
+    display: flex;
+}
+
+.pr100{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    align-content: center;
+    border: 1px solid black;
+}
+
+.pr001{
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+    margin: auto;
+} */
