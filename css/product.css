@@ -37,3 +37,16 @@
     border-radius: 50%;
     margin: auto;
 }
+
+.section-button2 button {
+    margin-left: 200px;
+    color: white;
+    border: none;
+    height: 80px;
+    width: 420px;
+    border-radius: 10px ;
+    background-color: #0e3051;
+    /* border-color: #0e3051; */
+    margin-left: 800px;
+}
+
