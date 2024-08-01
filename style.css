@@ -3,20 +3,41 @@
     /* height: 50vh; */
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    gap: 5rem;
+    gap: 3rem;
     margin: auto;
  
 }
 
 .cimg{
-    display: flex;
+    /* display: flex; */
     justify-content: center;
+
+    width: 273px;
+    height: 260px;
+    margin: auto;
+    justify-content: space-between;
 }
 
 .cimg img{
-    width: 322px;
-    height: 305px;
+    width: 273px;
+    height: 253px;
     border-radius: 10px;
+}
+
+.past{
+    height: 70px;
+    width: 400px;
+    /* background-color: black; */
+}
+
+.container2{
+    width: 90vw;
+    /* height: 50vh; */
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 2rem;
+    margin: auto;
+    overflow-x: hidden;
 }
 
 .cont2{
@@ -25,8 +46,8 @@
 }
 
 .cont2 img{
-    width: 322px;
-    height: 305px;
+    width: 273px;
+    height: 253px;
     border-radius: 10px;
 }
 
