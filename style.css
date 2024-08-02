@@ -51,6 +51,26 @@
     border-radius: 10px;
 }
 
+.main-nav{
+    display: flex;
+    /* padding-left: 24px; */
+    
+}
+
+
+
+.nav02{
+    display: flex;
+    width: 399px;
+    height: 35px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 15px;
+    /* margin-left: 50px; */
+    margin: auto;
+    
+}
+
 
 @media only screen and (max-width : 550px)
 {
