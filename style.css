@@ -1,6 +1,6 @@
 .container {
     width: 90vw;
-    /* height: 50vh; */
+    
     display: grid;
     grid-template-columns: repeat(5,1fr);
     gap: 3rem;
@@ -9,10 +9,8 @@
 }
 
 .cimg{
-    /* display: flex; */
     justify-content: center;
-
-    width: 273px;
+     width: 273px;
     height: 260px;
     margin: auto;
     justify-content: space-between;
@@ -27,12 +25,10 @@
 .past{
     height: 70px;
     width: 400px;
-    /* background-color: black; */
 }
 
 .container2{
     width: 90vw;
-    /* height: 50vh; */
     display: grid;
     grid-template-columns: repeat(5,1fr);
     gap: 2rem;
@@ -53,8 +49,6 @@
 
 .main-nav{
     display: flex;
-    /* padding-left: 24px; */
-    
 }
 
 
@@ -66,10 +60,75 @@
     justify-content: center;
     text-align: center;
     padding-top: 15px;
-    /* margin-left: 50px; */
     margin: auto;
     
 }
+
+.list1{
+width: 88vw;
+margin: auto;
+}
+
+
+.list01{
+font-size: 32px; 
+font-weight: 500px; 
+padding-left: 20px;
+}
+
+
+.seclist1{
+display: flex;
+margin-top: 20px;
+gap: 20px;
+font-size: 14px;
+color: #6A6A6A;
+padding-bottom: 20px;
+}
+
+
+.list2{
+display: flex;
+gap: 50px;
+}
+
+
+.list2 li{
+list-style-type: none;
+}
+
+
+.list001{
+color: #222222;
+
+}
+
+
+.list002{
+color: #6A6A6A;
+}
+
+
+.footer{
+width: 88vw;
+margin: auto;
+display: flex;
+gap: 20px;
+}
+
+
+.footer li{
+list-style-type: none;
+color: #222222;
+font-size: 14px;
+padding-top: 7px;
+}
+
+
+.footer1{
+font-weight: 700;
+}
+
 
 
 @media only screen and (max-width : 550px)
