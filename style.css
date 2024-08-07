@@ -13,22 +13,22 @@
     padding: 10px;
 }
 
-.airbnb {
+.sec01 {
     margin-left: 80px;
 }
 
-.sec1_txt {
+.sec01-text {
     display: flex;
     gap: 50px;
 }
 
-.sec1_2 {
+.sec02 {
     display: flex;
     gap: 10px;
     align-items: center;
 }
 
-.section1_2 {
+.section2 {
     width: 100%;
     max-width: 850px;
     height: 70px;
@@ -41,7 +41,7 @@
     padding: 0 10px;
 }
 
-.navsec {
+.nav {
     height: 72px;
     width: 90vw;
     display: flex;
@@ -55,7 +55,7 @@
     font-size: 14px;
 }
 
-.icon, .iconpool, .iconview, .iconframe, .iconbeach, .iconlake, .iconcountry {
+.icon, .pool, .view, .frame, .beach, .lake, .country {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -65,20 +65,37 @@
     padding-top: 10px;
 }
 
-.cimg {
+
+.item{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    width: 100%;
-    max-width: 273px;
-    height: auto;
-    margin: auto;
+    text-align: center;
 }
 
-.cimg img {
-    width: 100%;
-    height: auto;
+
+.cimg{
+    justify-content: center;
+     width: 273px;
+    height: 260px;
+    margin: auto;
+    justify-content: space-between;
+   
+}
+
+.cimg img{
+    width: 273px;
+    height: 253px;
     border-radius: 10px;
+}
+
+.item01{
+    padding: 10px 0 20px;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 273px; 
+    
 }
 
 .past {
@@ -90,6 +107,7 @@
     font-size: 32px;
     font-weight: 500;
     padding-left: 20px;
+    padding-bottom: 20px;
 
 
 }
@@ -109,10 +127,12 @@
 }
 
 .cont2 img {
-    width: 100%;
-    height: auto;
+    
+    width: 273px;
+    height: 253px;
     border-radius: 10px;
 }
+
 
 .main-nav {
     display: flex;
@@ -136,7 +156,8 @@
 .list01 {
     font-size: 32px;
     font-weight: 500;
-    padding-left: 20px;
+   
+    padding-bottom: 20px;
 }
 
 .seclist1 {
@@ -193,19 +214,19 @@
     .navsec {
         flex-direction: row;
     }
-    .navsec .icon, .navsec .iconpool,  .iconview, .navsec .iconframe, .navsec .iconbeach, .navsec .iconlake, .navsec .iconcountry {
+    .nav .icon, .navsec .pool,  .view, .nav .frame, .nav .beach, .nav .lake, .nav .country {
         width: 100%;
     }
 
     .section1{
         visibility: hidden;
     }
-    .sec1_2{
+    .sec01{
         visibility: hidden;
 
     }
 
-    .navsec{
+    .nav{
         visibility: hidden;
     }
 }
